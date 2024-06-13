@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+margin: 0;
+box-sizing: border-box;
+}
+li{
+    list-style:none;
+}
+body { 
+    display: flex; 
+    background-color: black;
+}
+
+header {
+     position: sticky;
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+     padding: 80px;
+     top: 0;
+     height: 100vh;
+}
+.elit-photo
+{
+    color: beige;
+    font-family: "Quicksand","sams-seirif";
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.home{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 13px;
+    padding: 20px 0px 0px 0px;
+}
+
+
+
+#redes svg
+{
+    height: 11px;
+    width: 13px;
+    margin: 10px 10px 0 0;
+}
+
+#redes
+{
+list-style: none;
+display: flex;
+fill: white;
+padding : 0;
+}
+
+main{
+    width: 95%;
+}
+
+#foto{
+    background-image: url("download.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#vindas{
+    font-family: "Oswald", "sams-seirif";
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#letra{
+    color: white;
+    font-family: "Quicksand","sams-seirif";
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 4%;
+
+}
+#filtro{
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: brightness(50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 250px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 2%;
+}
+
+header a:hover { color:#df0e62;}
+
+li{
+    margin-bottom: 5%;
+}
+#elite{
+    font-family: "Quicksand";
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+#botao{
+    font-size: 14px;
+    border-radius:30px ;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #df0e62;
+    border-color: #df0e62;
+    color: white;
+    margin-top: 40px;
+}
+
+
+#photos { display: flex;
+flex-wrap: wrap;}
+
+.imagens { width: 33%;
+height: 33vh;
+overflow: hidden;}
+
+.imagens img { width: 100%;
+height: 33vh;
+object-fit: cover;}
+
+.branco{
+    color: white;
+    font-family: "Oswald", "sams-seirif";
+    font-size: 60px;
+    text-align: center;
+    margin-top: 9%;
+}
+
+#pessoa{
+border-radius: 100%;
+width: 12%;
+margin-left: 44%;
+margin-top: 4%;
+}
+
+#forte{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+#evngelho{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    font-family: "Quicksand", "sams-serif";
+}
+.cinza{
+    background-color: #1a1a1a;
+    height: 180vh;
+}
+.biografia{
+    color: white;
+    font-family: "Oswald","Arial","sams-serif";
+    font-size: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 14%;
+    padding-top: 120px;
+    padding-left: 20%;
+}
+#pessoa2{
+    border-radius: 1%;
+    object-fit: cover;
+    width: 400px;
+    height: 380px;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+#Jed{
+    color: white;
+    font-family: "Oswald", arial, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+#paco{
+    color:gray;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 19px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 20%;
+}
+#taco{
+    color:gray;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 19px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+#anos{
+    color: white;
+    font-family: "Oswald", arial, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 20%;
+    margin-top: 2% ;
+}
+
+#laco{
+    color:gray;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 19px;
+    font-weight: 400;
+    text-align: justify;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+
+#verde 
+{
+    display: flex;
+    color: gray;
+    margin-left: 35vh;
+    margin-top: 2vh;
+    font-family: "Quicksand";
+}
+#direito 
+{
+   display: flex;
+   flex-direction: column;
+   margin-right: 30px;
+   margin-top: 10px
+}
+
+#esquerdo 
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#svg
+{
+    fill:#8bc34a;
+    height: 15px;
+    width: 7vh;
+}
+
+
+.blog{
+    color: white;
+    font-family: "Oswald", arial, sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    margin-left: 20%;
+    margin-top: 6% ;
+}
+.blogp{
+width: 250px;
+height: 200px;
+margin-left: 20%;
+
+}
+#blog{
+    color: white;
+    font-family: "Oswald", arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.div-foto-text{
+    display: flex;
+
+
+}
+.jan{
+    color:gray;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    margin-top: 20px;
+
+
+}
+
+.by{ 
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#rosa :hover{
+color: #df0e62;
+}
+#photos :hover{
+    background-image: url();
+    opacity: 0.5;
+}
+
+.jan a{
+    color: #df0e62;
+    text-decoration: none;
+}
+
+#padding{
+    padding-bottom: 18%;
+}
+
+#formulario label{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    margin-bottom: 2%;
+}
+
+#formulario>div{
+    display: flex;
+    gap: 3px;
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-left: 350px;
+    margin-right: 500px;
+}
+
+input{
+    font-size: 1rem;
+    padding: 6px;
+    padding-inline: 0;
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+textarea{
+    font-size: 1rem;
+    outline: none;
+    padding: 6px;
+    padding-inline: 0;
+    color: white;
+    background-color: #1a1a1a;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#rodape {
+    color: #808080;
+    font-family: "Quicksand","sams-serif";
+    font-weight: 500;
+    text-align: center;
+    padding: 3% 0;
+}
+.fonte-colorida {
+    color: #df0e62;
+    font-weight: 500;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+#msg{
+    font-size: 14px;
+    border-radius:30px ;
+    font-weight: bold;
+    padding:15px 15px;
+    background-color: #df0e62;
+    border-color: #df0e62;
+    color: white;
+    margin-right: 78%;
+    margin-top: 40px;
+}
+
+#mari{
+    background-color: #1a1a1a;
+    height: 120vh;
+}
